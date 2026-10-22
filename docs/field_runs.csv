@@ -1,0 +1,1 @@
+run_id,date,scenario,device_A,device_B,device_C,distance_m,created_count,delivered_count,delivery_ratio,mean_delay_s,battery_start,battery_end,duration_min,clock_skew_ms,notes

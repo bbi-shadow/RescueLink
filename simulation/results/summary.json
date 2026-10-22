@@ -1,0 +1,49 @@
+{
+  "description": "Synthetic random contacts, gateway node 0; not a prediction of field delivery",
+  "config": {
+    "nodes": 30,
+    "seeds": 10,
+    "duration_s": 7200,
+    "messages": 100,
+    "ttl_s": 1800,
+    "buffer": 50,
+    "bandwidth_per_direction": 5,
+    "copies": 4
+  },
+  "algorithms": {
+    "epidemic": {
+      "delivery_ratio": {
+        "mean": 1.0,
+        "std": 0.0,
+        "runs": 10
+      },
+      "mean_delay_s": {
+        "mean": 261.863,
+        "std": 17.939481628829494,
+        "runs": 10
+      },
+      "overhead_ratio": {
+        "mean": 28.948,
+        "std": 0.9573319405746606,
+        "runs": 10
+      }
+    },
+    "spray_wait": {
+      "delivery_ratio": {
+        "mean": 0.978,
+        "std": 0.013165611772087677,
+        "runs": 10
+      },
+      "mean_delay_s": {
+        "mean": 468.80191644494823,
+        "std": 53.24144628404081,
+        "runs": 10
+      },
+      "overhead_ratio": {
+        "mean": 3.0679887226434004,
+        "std": 0.04161210549372228,
+        "runs": 10
+      }
+    }
+  }
+}

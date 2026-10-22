@@ -1,0 +1,14 @@
+name: rescue_link
+description: RescueLink Android drill-only P2P DTN proof of concept.
+publish_to: none
+version: 0.2.0+2
+environment:
+  sdk: '>=3.6.0 <4.0.0'
+dependencies:
+  flutter:
+    sdk: flutter
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+flutter:
+  uses-material-design: true
